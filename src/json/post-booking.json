@@ -1,0 +1,14 @@
+{
+    "duration" : "2",
+    "price" : "240",
+    "bookingDateStart" : "new Date()",
+    "bookingDateEnd" : "new Date()",
+    "firstName" : "Hanjar",
+    "lastName" : "Raes",
+    "emailAddress" : "hanjarraess@gmail.com",
+    "phoneNumber" : "085263132152",
+    "accountHolder" : "Hanjarraes",
+    "bankFrom" : "BCA",
+    "proofPayment" : "FileData()"
+
+}

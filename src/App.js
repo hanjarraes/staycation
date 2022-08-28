@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-
+import 'remixicon/fonts/remixicon.css'
 import 'assets/scss/style.scss';
 import Landing from 'pages/Landing';
 

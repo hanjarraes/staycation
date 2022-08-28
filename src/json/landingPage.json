@@ -1,0 +1,69 @@
+{
+    "hero":{
+        "travelers":80409,
+        "treasures":882,
+        "cities": 1942
+    },
+    "mostPicked":[
+        {
+          "_id": "630b724692731340f69afef0",
+          "name": "Casey Calderon",
+          "type": "Apartment",
+          "imageUrl": "http://placehold.it/32x32",
+          "country": "Virgin Islands",
+          "city": "Baker",
+          "price": 80,
+          "unit": "night"
+        },
+        {
+          "_id": "630b7246bdcd75cdae70ca87",
+          "name": "Hansen Carpenter",
+          "type": "Hotel",
+          "imageUrl": "http://placehold.it/32x32",
+          "country": "Massachusetts",
+          "city": "Garnet",
+          "price": 32,
+          "unit": "night"
+        },
+        {
+          "_id": "630b724648e3d6fbdddd483b",
+          "name": "Cunningham Whitehead",
+          "type": "Apartment",
+          "imageUrl": "http://placehold.it/32x32",
+          "country": "South Carolina",
+          "city": "Falconaire",
+          "price": 12,
+          "unit": "night"
+        },
+        {
+          "_id": "630b724655fe65efd790e7d1",
+          "name": "Bettye Gomez",
+          "type": "Hotel",
+          "imageUrl": "http://placehold.it/32x32",
+          "country": "Guam",
+          "city": "Homeland",
+          "price": 33,
+          "unit": "night"
+        },
+        {
+          "_id": "630b724647ddfdf03b7797ae",
+          "name": "Marylou Russell",
+          "type": "Hotel",
+          "imageUrl": "http://placehold.it/32x32",
+          "country": "Iowa",
+          "city": "Lafferty",
+          "price": 44,
+          "unit": "night"
+        },
+        {
+          "_id": "630b72468f5d4d9aebfd7a6f",
+          "name": "Mann Mcmahon",
+          "type": "Apartment",
+          "imageUrl": "http://placehold.it/32x32",
+          "country": "West Virginia",
+          "city": "Manila",
+          "price": 11,
+          "unit": "night"
+        }
+      ]
+}
