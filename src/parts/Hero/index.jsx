@@ -40,14 +40,14 @@ export default function Hero(props) {
                             </h6>
                         </div>
                         <div className="col-auto">
-                            <i class="ri-camera-line icon-traveler" />
+                            <i className="ri-camera-line icon-traveler" />
                             <h6 className="mt-1">
                                 {numberFormat(props.data.treasures)}
                                 <span className="text-gray-500 font-weight-light ml-2">Treasures</span>
                             </h6>
                         </div>
                         <div className="col-auto">
-                            <i class="ri-map-pin-line icon-traveler" />
+                            <i className="ri-map-pin-line icon-traveler" />
                             <h6 className="mt-1">
                                 {numberFormat(props.data.cities)}
                                 <span className="text-gray-500 font-weight-light ml-2">Cities</span>
