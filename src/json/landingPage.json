@@ -55,5 +55,130 @@
           "price": 44,
           "unit": "night"
         }
-      ]
+    ],
+    "categories":[
+      {
+        "_id" :"asdsagsdf123123asda12",
+        "name":"Hotels with large living room",
+        "items":[
+          {
+            "_id": "7269965580365290000",
+            "name": "Nannie",
+            "imageUrl": "/images/hotel1.jpg",
+            "country": "Bahrain",
+            "city": "Tbilisi",
+            "isPopular": true
+          },
+          {
+            "_id": "766136757023771100",
+            "name": "Gianina",
+            "imageUrl": "/images/hotel2.jpg",
+            "country": "Hong Kong",
+            "city": "Road Town",
+            "isPopular": true
+          },
+          {
+            "_id": "9316184260354960000",
+            "name": "Elyssa",
+            "imageUrl": "/images/hotel3.jpg",
+            "country": "Fiji",
+            "city": "Beijing",
+            "isPopular": false
+          },
+          {
+            "_id": "2496265548629231000",
+            "name": "Linet",
+            "imageUrl": "/images/hotel4.jpg",
+            "country": "San Marino",
+            "city": "Shenzhen",
+            "isPopular": true
+          }
+        ]
+      },
+      {
+        "_id" :"wqe12312312321321",
+        "name":"House with beauty backyard",
+        "items":[
+          {
+            "_id": "1605345685887781000",
+            "name": "Brietta",
+            "imageUrl": "/images/home1.jpg",
+            "country": "Lao People\"S Democratic Republic",
+            "city": "Bissau",
+            "isPopular": true
+          },
+          {
+            "_id": "2189481456237558300",
+            "name": "Dari",
+            "imageUrl":  "/images/home2.jpg",
+            "country": "Norfolk Island",
+            "city": "Sitka",
+            "isPopular": false
+          },
+          {
+            "_id": "2725233381113179000",
+            "name": "Rivalee",
+            "imageUrl":  "/images/home3.jpg",
+            "country": "Taiwan, Province of China",
+            "city": "Bogotá",
+            "isPopular": true
+          },
+          {
+            "_id": "2229867805208054500",
+            "name": "Kimmy",
+            "imageUrl":  "/images/home4.jpg",
+            "country": "Indonesia",
+            "city": "Stockholm",
+            "isPopular": false
+          }
+        ]
+      },
+      {
+        "_id" :"wqe12312312321321",
+        "name":"Apartments with kitchen set",
+        "items":[
+          {
+            "_id": "2399704744316074000",
+            "name": "Chastity",
+            "imageUrl": "/images/apar1.jpg",
+            "country": "Cyprus",
+            "city": "Ottawa",
+            "isPopular": true
+          },
+          {
+            "_id": "626866963340229200",
+            "name": "Alisha",
+            "imageUrl": "/images/apar2.jpg",
+            "country": "Puerto Rico",
+            "city": "San Carlos de Bariloche",
+            "isPopular": true
+          },
+          {
+            "_id": "8422600060406016000",
+            "name": "Lonnie",
+            "imageUrl": "/images/apar3.jpg",
+            "country": "Bhutan",
+            "city": "Naples",
+            "isPopular": false
+          },
+          {
+            "_id": "1115036696796330600",
+            "name": "Farrah",
+            "imageUrl": "/images/apar4.jpg",
+            "country": "Montserrat",
+            "city": "New Delhi",
+            "isPopular": true
+          }
+        ]
+      }
+    ],
+    "testimonial":{
+      "_id": "123123asdsad131",
+      "imageUrl":"",
+      "name":"Happy Family",
+      "rate": 4.5,
+      "content":"What a great trip with ny family and I should try again next time soon ...",
+      "familyName":"Hanjarraes",
+      "familyOccupation":"Programmer"
+    }
 }
