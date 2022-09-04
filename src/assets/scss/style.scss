@@ -222,3 +222,33 @@ section {
   border-bottom-right-radius: 150px;
   object-fit: cover;
 }
+
+footer{
+  border-top: 1px solid $gray-200;
+  padding-top: 50px;
+
+  .brand-tagline{
+    margin-top: 5px;
+    color: $gray-500;
+    font-weight: 300;
+  }
+
+  .list-group-item{
+    padding: 0.3125rem 0;
+    border: 0;
+    a, span{
+      color: $gray-500;
+      font-weight: 300;
+    }
+    a{
+      @include hover-focus{
+        color:$gray-800
+      }
+    }
+  }
+  .copyrights{
+    margin-top: 50px;
+    font-weight: 300;
+    color: $gray-500;
+  }
+}

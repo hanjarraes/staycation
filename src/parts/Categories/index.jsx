@@ -10,7 +10,7 @@ export default function Categories({ data }) {
                     <h4 className="mb-3 font-weight-medium">
                         {item.name}
                     </h4>
-                    <div className='container-grid'>
+                    <div className='container-grid' data-aos="fade-up">
                         {item.items.length === 0 ? (
                             <div className="row">
                                 <div className="col-auto align-item-center">
