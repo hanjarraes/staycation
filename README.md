@@ -1,70 +1,177 @@
-# Getting Started with Create React App
+# Staycation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Platform pemesanan akomodasi liburan berbasis web yang dibangun dengan React. Temukan properti terbaik untuk liburanmu — dari hotel, rumah, hingga apartemen — lengkap dengan fitur pemilihan tanggal, rating, dan tampilan yang menarik.
 
-## Available Scripts
+**Live Demo:** [https://hanjarraes.github.io/staycation](https://hanjarraes.github.io/staycation)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Tambahkan screenshot project di folder `public/screenshots/` lalu update bagian ini.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Landing Page | Most Picked | Categories |
+|:---:|:---:|:---:|
+| ![Landing Page](public/screenshots/landing.png) | ![Most Picked](public/screenshots/most-picked.png) | ![Categories](public/screenshots/categories.png) |
 
-### `npm test`
+| Testimonial | Footer |
+|:---:|:---:|
+| ![Testimonial](public/screenshots/testimonial.png) | ![Footer](public/screenshots/footer.png) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Fitur
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Hero Section** — Tampilan utama dengan statistik: jumlah traveler, properti, dan kota
+- **Most Picked** — Grid properti paling populer beserta harga per malam
+- **Categories** — Filter properti berdasarkan kategori: Hotel, Rumah, dan Apartemen
+- **Testimonial** — Ulasan pelanggan dengan rating bintang
+- **Input Date Range** — Pilih tanggal check-in dan check-out
+- **Input Number** — Input jumlah tamu
+- **Animasi Scroll** — Efek animasi saat elemen muncul menggunakan AOS
+- **Responsive Design** — Tampilan optimal di desktop maupun mobile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Teknologi
 
-### `npm run eject`
+| Kategori | Teknologi |
+|---|---|
+| Framework | React 18 |
+| Routing | React Router DOM v5 |
+| Styling | SCSS (node-sass) |
+| Animasi | AOS (Animate On Scroll) |
+| Ikon | Remixicon |
+| Date Picker | react-date-range |
+| Date Utility | date-fns, moment.js |
+| Build Tool | Create React App |
+| Testing | Jest + React Testing Library |
+| Deployment | GitHub Pages |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Struktur Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+staycation/
+├── public/
+│   ├── images/              # Gambar properti akomodasi
+│   ├── screenshots/         # Screenshot untuk README (tambahkan sendiri)
+│   └── index.html
+├── src/
+│   ├── assets/              # Stylesheet global dan aset statis
+│   ├── component/           # Komponen UI yang dapat digunakan ulang
+│   │   ├── Button/          # Komponen button (link, primary, disabled, dll)
+│   │   ├── Form/
+│   │   │   ├── InputDate/   # Date range picker
+│   │   │   └── InputNumber/ # Input jumlah
+│   │   └── Star/            # Komponen rating bintang
+│   ├── json/
+│   │   └── landingPage.json # Data statis (properti, kategori, testimonial)
+│   ├── pages/
+│   │   ├── Landing/         # Halaman utama
+│   │   └── Detail/          # Halaman detail properti
+│   ├── parts/               # Bagian/section dari halaman
+│   │   ├── Header/
+│   │   ├── Hero/
+│   │   ├── MostPicked/
+│   │   ├── Categories/
+│   │   ├── Testimonial/
+│   │   ├── Footer/
+│   │   └── IconText/
+│   ├── utils/
+│   │   └── index.js         # Helper: formatNumber, formatDate
+│   ├── App.js               # Root component & routing
+│   └── index.js             # Entry point
+├── package.json
+└── README.md
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Memulai Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prasyarat
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pastikan kamu sudah menginstal:
+- [Node.js](https://nodejs.org/) versi 14 ke atas
+- npm (sudah termasuk bersama Node.js)
 
-### Code Splitting
+### Instalasi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Clone repository
+git clone https://github.com/hanjarraes/staycation.git
 
-### Analyzing the Bundle Size
+# Masuk ke direktori project
+cd staycation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Install dependensi
+npm install
+```
 
-### Making a Progressive Web App
+### Menjalankan di Lokal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+Buka [http://localhost:3000](http://localhost:3000) di browser. Halaman akan otomatis reload saat ada perubahan kode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Build untuk Produksi
 
-### Deployment
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Output build tersimpan di folder `build/`.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment ke GitHub Pages
+
+Project ini dikonfigurasi untuk di-deploy ke GitHub Pages menggunakan package `gh-pages`.
+
+### Deploy
+
+```bash
+npm run deploy
+```
+
+Perintah ini akan otomatis menjalankan build dan mempush hasilnya ke branch `gh-pages`. Setelah beberapa menit, aplikasi dapat diakses di:
+
+**[https://hanjarraes.github.io/staycation](https://hanjarraes.github.io/staycation)**
+
+---
+
+## Menambahkan Screenshot
+
+1. Ambil screenshot dari aplikasi yang sedang berjalan
+2. Simpan di folder `public/screenshots/` dengan nama:
+   - `landing.png`
+   - `most-picked.png`
+   - `categories.png`
+   - `testimonial.png`
+   - `footer.png`
+3. Gambar akan otomatis muncul di tabel Screenshots di atas
+
+---
+
+## Scripts yang Tersedia
+
+| Script | Keterangan |
+|---|---|
+| `npm start` | Jalankan development server di localhost:3000 |
+| `npm run build` | Build production ke folder `build/` |
+| `npm test` | Jalankan test suite |
+| `npm run deploy` | Deploy ke GitHub Pages |
+
+---
+
+## Lisensi
+
+Project ini dibuat untuk keperluan pembelajaran. Bebas digunakan sebagai referensi.
+
+---
+
+<p align="center">Dibuat oleh <a href="https://github.com/hanjarraes">hanjarraes</a></p>
