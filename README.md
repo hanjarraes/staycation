@@ -8,7 +8,7 @@ Platform pemesanan akomodasi liburan berbasis web yang dibangun dengan React. Te
 
 ## Screenshot
 
-![Staycation - Landing Page](public/screenshots/landing.png)
+![Staycation - Landing Page](public/landing.png)
 
 ---
 
