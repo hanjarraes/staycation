@@ -6,17 +6,9 @@ Platform pemesanan akomodasi liburan berbasis web yang dibangun dengan React. Te
 
 ---
 
-## Screenshots
+## Screenshot
 
-> Tambahkan screenshot project di folder `public/screenshots/` lalu update bagian ini.
-
-| Landing Page | Most Picked | Categories |
-|:---:|:---:|:---:|
-| ![Landing Page](public/screenshots/landing.png) | ![Most Picked](public/screenshots/most-picked.png) | ![Categories](public/screenshots/categories.png) |
-
-| Testimonial | Footer |
-|:---:|:---:|
-| ![Testimonial](public/screenshots/testimonial.png) | ![Footer](public/screenshots/footer.png) |
+![Staycation - Landing Page](public/screenshots/landing.png)
 
 ---
 
@@ -141,19 +133,6 @@ npm run deploy
 Perintah ini akan otomatis menjalankan build dan mempush hasilnya ke branch `gh-pages`. Setelah beberapa menit, aplikasi dapat diakses di:
 
 **[https://hanjarraes.github.io/staycation](https://hanjarraes.github.io/staycation)**
-
----
-
-## Menambahkan Screenshot
-
-1. Ambil screenshot dari aplikasi yang sedang berjalan
-2. Simpan di folder `public/screenshots/` dengan nama:
-   - `landing.png`
-   - `most-picked.png`
-   - `categories.png`
-   - `testimonial.png`
-   - `footer.png`
-3. Gambar akan otomatis muncul di tabel Screenshots di atas
 
 ---
 
