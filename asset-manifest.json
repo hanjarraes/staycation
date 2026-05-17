@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/staycation/static/css/main.ef6e1ab2.css",
+    "main.js": "/staycation/static/js/main.f3bdb731.js",
+    "static/js/787.0b78bd19.chunk.js": "/staycation/static/js/787.0b78bd19.chunk.js",
+    "static/media/remixicon.svg?t=1590207869815": "/staycation/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/staycation/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/staycation/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/orangbahagia.jpg": "/staycation/static/media/orangbahagia.cc3c5cc026280a699101.jpg",
+    "static/media/img-hero.jpg": "/staycation/static/media/img-hero.298ba6a21a9d31117832.jpg",
+    "static/media/remixicon.woff?t=1590207869815": "/staycation/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/staycation/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "index.html": "/staycation/index.html",
+    "static/media/star-icon.svg": "/staycation/static/media/star-icon.7c888440a4fcba6b9f18.svg",
+    "main.ef6e1ab2.css.map": "/staycation/static/css/main.ef6e1ab2.css.map",
+    "main.f3bdb731.js.map": "/staycation/static/js/main.f3bdb731.js.map",
+    "787.0b78bd19.chunk.js.map": "/staycation/static/js/787.0b78bd19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef6e1ab2.css",
+    "static/js/main.f3bdb731.js"
+  ]
+}
